@@ -1,10 +1,10 @@
 Langkah Ke 1 :
-    Buka File AndroidManifest.xml Yang Ada Di Folder **android/src/main** dan Tambahankan Permisions Disebelum Tag Penutup ```</manifest>``` dan Sesudah Tag Penutup ```</application>``` :
+    Buka File AndroidManifest.xml Yang Ada Di Folder **android/src/main/** dan Tambahankan Permisions Disebelum Tag Penutup ```</manifest>``` dan Sesudah Tag Penutup ```</application>``` :
 
         <uses-permission android:name="android.permission.INTERNET"/>
 
 Langkah Ke 2 : 
-    Buka File build.gradle Yang Ada Di Folder android/app/build.gradle dan Edit Code :
+    Buka File build.gradle Yang Ada Di Folder **android/app/** dan Edit Code :
 
     buildTypes {
         release {
