@@ -1,10 +1,12 @@
 Langkah Ke 1 :
-    Buka File AndroidManifest.xml dan Tambahankan Permisions Disebelum Tag </manifest> dan Sesudah Tag</application> :
+    Buka File AndroidManifest.xml dan Tambahankan Permisions Disebelum Tag Penutup ```</manifest>``` dan Sesudah Tag Penutup ```</application>``` :
+
         <uses-permission android:name="android.permission.INTERNET"/>
+
 Langkah Ke 2 : 
     Buka File build.gradle Yang Ada Di Folder android/app/build.gradle dan Edit Code :
 
-     buildTypes {
+    buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
