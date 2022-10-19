@@ -12,7 +12,7 @@ Langkah Ke 2 :
         }
     }
 
-    Menjadi Seperti Berikut :
+Menjadi Seperti Berikut :
 
     buildTypes {
         release {
