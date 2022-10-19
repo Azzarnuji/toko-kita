@@ -12,7 +12,7 @@ Langkah Ke 2 :
         }
     }
 
-    - Menjadi Seperti Berikut :
+    Menjadi Seperti Berikut :
 
     buildTypes {
         release {
@@ -28,10 +28,9 @@ Langkah Ke 2 :
     }
 Langkah Ke 3 :
     Buka Terminal/CMD di VSCODE Dengan Menekan Tombol CTRL+Shift+` kemudian ketikan:
-    
+
         1. start ms-settings:developers //Untuk Mengaktifkan Windows Developer Mode
             - Kemudian Aktifkan Developer Mode
-        
         2. flutter clean
         3. flutter build apk --release
 
