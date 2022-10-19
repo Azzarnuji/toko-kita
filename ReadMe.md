@@ -1,5 +1,5 @@
 Langkah Ke 1 :
-    Buka File AndroidManifest.xml dan Tambahankan Permisions Disebelum Tag Penutup ```</manifest>``` dan Sesudah Tag Penutup ```</application>``` :
+    Buka File AndroidManifest.xml Yang Ada Di Foler android/src/main dan Tambahankan Permisions Disebelum Tag Penutup ```</manifest>``` dan Sesudah Tag Penutup ```</application>``` :
 
         <uses-permission android:name="android.permission.INTERNET"/>
 
